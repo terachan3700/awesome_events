@@ -85,6 +85,11 @@ GEM
       railties (>= 3.2)
     erubi (1.10.0)
     erubis (2.7.0)
+    factory_bot (6.1.0)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.1.0)
+      factory_bot (~> 6.1.0)
+      railties (>= 5.0.0)
     faraday (1.4.1)
       faraday-excon (~> 1.1)
       faraday-net_http (~> 1.0)
@@ -273,6 +278,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   dotenv-rails
+  factory_bot_rails
   hamlit-rails (~> 0.2.3)
   html2haml (~> 2.2)
   jbuilder (~> 2.7)
